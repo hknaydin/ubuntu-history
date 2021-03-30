@@ -1,0 +1,60 @@
+1  sudo apt-get update 
+    2  tar -xf msp
+    3  sudo apt-get install git
+    4  sudo apt-get install gitk
+    5  sudo apt-get install colordiff
+    6  tar -xf mspgcc-4.7.3.tar.bz2 
+    7  sudo mv mspgcc-4.7.3 /usr/local/
+    8  echo "" >> ~/.bashrc
+    9  echo "export PATH=\$PATH:/usr/local/mspgcc-4.7.3/bin" >> ~/.bashrc
+   10  sudo dpkg --add-architecture i386
+   11  sudo apt-get update
+   12  sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
+   13  sudo apt-get install zlib1g:i386
+   14  sudo apt-get install gcc-arm-none-eabi
+   15  sudo apt-get install python-serial
+   16  sudo apt-get install ant
+   17  sudo apt-get install minicom
+   18  sudo add-apt-repository ppa:webupd8team/java
+   19  sudo apt-get update
+   20  sudo apt-get install oracle-java8-installer
+   21  sudo add-apt-repository ppa:webupd8team/sublime-text-3
+   22  sudo apt-get update
+   23  sudo apt-get install sublime-text-installer
+   24  sudo apt-get install wireshark
+   25  sudo apt-get install make
+   26  sudo apt-get install sy
+   27  sudo apt-get install synaptic
+   28  python JRC.py 
+   29  ant run
+   30  python -version
+   31  python
+   32  ant run
+   33  sudo gedit ~/.bashrc
+   34  sudo gedit ~/.bashrc 
+   35  update-alternatives --config java
+   36  sudo dpkg --add-architecture i386
+   37  sudo apt-get update
+   38  sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386
+   39  sudo apt-get install zlib1g:i386
+   40  sudo update-alternatives --config java
+   41  ant run
+   42  source ~/.bashrc 
+   43  ant run
+   44  java -version
+   45  ant run
+   46  tar -zxf jdk-8u281-linux-i586.tar.gz 
+   47  sudo mv jdk1.8.0_281/ /usr/lib/jvm/
+   48  sudo update-alternatives --config java
+   49  sudo update-alternatives --config javac
+   50  source ~/.bashrc 
+   51  sudo update-alternatives --config java
+   52  sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.8.0_281/bin/java 100
+   53  sudo update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk1.8.0_281/bin/javac 100
+   54  java -version
+   55  javac -version
+   56  sudo update-alternatives --config javac
+   57  sudo update-alternatives --config java
+   58  javac -version
+   59  java -version
+   60  history 
